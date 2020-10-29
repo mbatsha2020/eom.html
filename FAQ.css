@@ -1,0 +1,78 @@
+.border {
+    border: 1px solid black;
+    padding: 3px 15px;
+    margin-bottom: 5px;
+    font-size: 2em;
+    position: relative;
+  }
+  input,
+  textarea {
+    margin: 1em auto;
+    padding: 10px;
+  }
+  select {
+    padding: 10px;
+    width: 195px;
+  }
+  textarea {
+    height: 150px;
+    width: 90%;
+    font-family: arial;
+    padding: 10px;
+  }
+  .tooltip {
+    position: relative;
+    display: block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  .removeBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    background: red;
+    border: 1px solid gray;
+    padding: 4px 8px;
+    color: #fff;
+  }
+  .addBtn {
+    background: navy;
+    color: #fff;
+    padding: 4px 8px;
+    border: 1px solid gray;
+  }
+  .copyCode {
+    background: green;
+    color: #fff;
+    padding: 4px 8px;
+    border: 1px solid gray;

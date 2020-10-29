@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,700');
+
+/* STYLING BODY ELEMENTS */
+
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #989479;
+  color: #000;
+}
+
+/* WHITE CONTAINER */
+.ribbonHead {
+  width: 400px;
+  background-color: #fff;
+  padding: 20px 30px 30px 50px;
+  margin: 30px 100px 30px 30px;
+}
+
+/* STYLING H1 ELEMENT */
+.ribbonHead h1 {
+  color: #fff;
+  position: relative;
+  background-color: #2E3268;
+  margin: 0px -70px 20px -30px;
+  padding: 24px 0px 16px 30px;
+}
+
+/* PUTTING TRIANGLE AFTER H1 ELEMENT */
+.ribbonHead h1:after {
+  content: "";
+  display: block;
+  height: 40px;
+  width: 40px;
+  background: url("http://gdurl.com/mhmH") no-repeat 0 0;
+  position: absolute;
+  right: 0px;
+  bottom: -40px;
+}
+
+/* TEAMWORK IMG STYLES*/
+img {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding: 20px;
+}
+
+/* JUSTIFYING THE TEXT*/
+.ribbonHead p {
+  text-align: justify;
+}

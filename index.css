@@ -1,0 +1,76 @@
+body{
+  background: #F2F2F2;
+}
+
+.container-text {
+  text-align: center;
+  justify-content: space-around;
+  color: #191919;
+}
+
+
+h3, p {
+  color: #292738;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+
+.sectionLight {
+  background-color: #F7F7F7;
+  padding: 2rem;
+}
+
+.sectionDark {
+  background: #020202;
+  padding: 2rem;
+}
+
+.btn-wrapper {
+  margin-top: 10px;
+}
+
+.btn-wrap {
+  background: #910000;
+  color: #F4F4F4;
+  display: block;
+  margin: auto;
+}
+
+.modal-header {
+  margin: auto;
+}
+.modalFromWrapper {
+  padding: 2rem;
+}
+
+.btnCenter {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 54%;
+}
+
+ .footerImg {
+   padding: 15px;
+ }
+
+ .fab {
+   margin: 10px;
+ }
+
+ .fa-facebook-square {
+   color: #3b5998;
+ }
+ .fa-google-plus-square {
+   color: #B52103;
+ }
+ .fa-instagram {
+   color: #fff;
+ }
+ .socialWrapper {
+   margin: auto;
+ }
+.bg-color {
+  background: #0C0C0C;
+}

@@ -1,0 +1,22 @@
+<div id="app">
+    <h1>FAQ Page Form</h1>
+    <p>Add all your Questions and answers</p>
+    <head>
+        <link rel="stylesheet" href="FAQ.css">
+    </head>
+    <div class="border" v-for="(field, index) in mainEntity">
+      <button class="removeBtn" @click="RemoveField(index)">
+      X
+    </button>
+      <textarea v-model="field.name" placeholder="Enter Question"></textarea><br/>
+      <textarea v-model="field.acceptedAnswer.text" placeholder="Enter Answer"></textarea><br/>
+    </div>
+    <button class="addBtn" @click="AddField">
+      Add a Question
+    </button>
+  
+    <h2>Don't forget to drop the location, Friday.</h2>
+   
+    <div></div>
+    </div>
+  </div>
